@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnertweaker",
+  "version": "1.0.0",
+  "name": "SpawnerTweaker",
+  "description": "Automatically tweaks spawner properties on load",
+  "authors": [
+    "ChatGPT"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "spawnertweaker.SpawnerTweaker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.5",
+    "fabric-api": "*"
+  }
+}
